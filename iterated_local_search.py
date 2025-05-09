@@ -10,7 +10,7 @@ import random
 import time
 import sys
 import copy
-
+from glob import glob
 # --- Funções Auxiliares ---
 
 def read_instance(file_path):
@@ -393,36 +393,39 @@ def iterated_local_search(file_path, max_ils_iterations, perturbation_strength, 
 if __name__ == "__main__":
     # Verifica se os argumentos mínimos foram passados
     if len(sys.argv) < 4:
-        print("Uso: python ils_comparsas.py <arquivo_instancia> <max_iteracoes_ils> <semente_aleatoria> [forca_perturbacao]")
-        print("Exemplo: python ils_comparsas.py instancia_01.txt 1000 1 5")
+        print("Uso: python iterated_local_search.py <pasta_instancias> <max_iteracoes_ils> <semente_aleatoria> [forca_perturbacao]")
+        print("Exemplo: python iterated_local_search.py inputs 1000 1 5")
         sys.exit(1) # Termina se os argumentos estiverem incorretos
-
-    # Lê os argumentos da linha de comando
-    instance_file = sys.argv[1]
+        
     # O critério de parada principal é o número de iterações do ILS
     max_iterations_param = int(sys.argv[2])
     # Semente para garantir reprodutibilidade
-    random_seed_param = int(sys.argv[3])
+    random_seed_param = int(sys.argv[3])    
     # Parâmetro opcional para força da perturbação (quantos criminosos mover)
     perturbation_strength_param = 5 # Valor padrão se não for fornecido
     if len(sys.argv) > 4:
         perturbation_strength_param = int(sys.argv[4])
+    
+    files = glob(sys.argv[1]+r"\*.txt")
+    
+    for file in files:
+        # Lê os argumentos da linha de comando
+        instance_file = file
+        # Imprime informações da execução
+        print(f"Executando ILS para Separação de Comparsas")
+        print(f"Instância: {instance_file}")
+        print(f"Máximo de Iterações ILS: {max_iterations_param}")
+        print(f"Semente Aleatória Inicial: {random_seed_param}")
+        print(f"Força da Perturbação: {perturbation_strength_param}")
+        print("-" * 30)
 
-    # Imprime informações da execução
-    print(f"Executando ILS para Separação de Comparsas")
-    print(f"Instância: {instance_file}")
-    print(f"Máximo de Iterações ILS: {max_iterations_param}")
-    print(f"Semente Aleatória Inicial: {random_seed_param}")
-    print(f"Força da Perturbação: {perturbation_strength_param}")
-    print("-" * 30)
+        # Chama a função principal do ILS
+        best_solution_found, best_objective_found = iterated_local_search(
+            instance_file,
+            max_iterations_param,
+            perturbation_strength_param,
+            random_seed_param
+        )
 
-    # Chama a função principal do ILS
-    best_solution_found, best_objective_found = iterated_local_search(
-        instance_file,
-        max_iterations_param,
-        perturbation_strength_param,
-        random_seed_param
-    )
-
-    # Imprime um separador final kkkkkkkk
-    print("-" * 30)
+        # Imprime um separador final kkkkkkkk
+        print("-" * 30 + "\n\n")
