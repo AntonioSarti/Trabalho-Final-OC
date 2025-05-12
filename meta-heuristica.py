@@ -393,8 +393,8 @@ def iterated_local_search(file_path, max_ils_iterations, perturbation_strength, 
 if __name__ == "__main__":
     # Verifica se os argumentos mínimos foram passados
     if len(sys.argv) < 4:
-        print("Uso: python iterated_local_search.py <pasta_instancias> <max_iteracoes_ils> <semente_aleatoria> [forca_perturbacao]")
-        print("Exemplo: python iterated_local_search.py inputs 1000 1 5")
+        print("Uso: python meta-heuristica.py <pasta_instancias> <max_iteracoes_ils> <semente_aleatoria> [forca_perturbacao]")
+        print("Exemplo: python meta-heuristica.py inputs 1000 1 5")
         sys.exit(1) # Termina se os argumentos estiverem incorretos
         
     # O critério de parada principal é o número de iterações do ILS
