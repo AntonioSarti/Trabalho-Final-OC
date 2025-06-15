@@ -12,10 +12,10 @@ Nenhuma biblioteca adicional foi utilizada.
 Para executar, basta rodar o código via linha de comando com:
 
 ```bash
-python meta-heuristica.py <pasta_instancias> <max_iteracoes_ils> <semente_aleatoria> [forca_perturbacao]
+python meta-heuristica.py <max_iteracoes_ils> <semente_aleatoria> <forca_perturbacao> <instancia.txt>
 ```
 
 Exemplo:
 ```bash
-python meta-heuristica.py inputs 1000 1 5
+python meta-heuristica.py 1000 1 5 01.txt
 ```
