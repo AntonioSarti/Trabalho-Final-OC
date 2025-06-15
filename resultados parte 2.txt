@@ -1,0 +1,109 @@
+2.9999999999999902
+4.0
+5.000000000000004
+melhor solução: 9, tempo esgotado
+melhor solução: 10, tempo esgotado
+melhor solução: 8, tempo esgotado
+melhor solução: 18, tempo esgotado
+melhor solução: 14, tempo esgotado
+melhor solução: 11, tempo esgotado
+melhor solução: 39, tempo esgotado
+----------seed 2-------------------
+2.9999999999999982
+4.000000000000001
+5.0
+melhor solução: 9, tempo esgotado
+melhor solução: 10, tempo esgotado
+melhor solução: 8, tempo esgotado
+melhor solução: 18, tempo esgotado
+melhor solução: 14, tempo esgotado
+melhor solução: 10, tempo esgotado
+melhor solução: inf, solução não encontrada, tempo esgotado
+--------------seed 3---------------
+3.0
+4.0
+5.0
+melhor solução: 9, tempo esgotado
+melhor solução: 10, tempo esgotado
+melhor solução: 8, tempo esgotado
+melhor solução: 18, tempo esgotado
+melhor solução: 14, tempo esgotado
+melhor solução: 11, tempo esgotado
+melhor solução: inf, soluçao não encontrada, tempo esgotado
+-----------------seed 4------------------
+3.0
+4.0
+5.0
+melhor solução: 9, tempo esgotado
+melhor solução: 10, tempo esgotado
+melhor solução: 8, tempo esgotado
+melhor soluçao: 18, tempo esgotado
+melhor solução: 15, tempo esgotado
+melhor solução: 11, tempo esgotado
+melhor solução: 39, tempo esgotado
+----------------seed 5---------------
+3.0
+3.9999999999999996
+4.999999999999998
+melhor solução: 9, tempo esgotado
+melhor solução: 10, tempo esgotado
+melhor solução: 8, tempo esgotado
+melhor solução: 18, tempo esgotado
+melhor solução: 15, tempo esgotado
+melhor solução: 11, tempo esgotado
+melhor solução: 39, tempo esgotado
+--------------seed 6---------------
+3.0
+4.0
+5.0
+melhor solução: 9, tempo esgotado
+melhor solução: 10, tempo esgotado
+melhor solução: 8, tempo esgotado
+melhor solução: 18, tempo esgotado
+melhor solução: 14, tempo esgotado
+melhor solução: 11, tempo esgotado
+melhor solução: inf, solução não encontrada, tempo esgotado
+-----------seed 7-----------------
+3.0
+4.0
+4.999999999999999
+melhor solução: 9, tempo esgotado
+melhor solução: 10, tempo esgotado
+melhor solução: 8, tempo esgotado
+melhor solução: 18, tempo esgotado
+melhor solução: 14, tempo esgotado
+melhor solução: 12, tempo esgotado
+melhor solução: 39, tempo esgotado
+-------------seed 8--------------
+3.0
+4.0
+5.0
+melhor solução: 9, tempo esgotado
+melhor solução: 10, tempo esgotado
+melhor solução: 8, tempo esgotado
+melhor solução: 18, tempo esgotado
+melhor solução: 14, tempo esgotado
+melhor solução: 11, tempo esgotado
+melhor solução: 39, tempo esgotado
+-----------seed 9---------------
+3.0
+4.0
+4.999999999999987
+melhor solução: 9, tempo esgotado
+melhor solução: 10, tempo esgotado
+melhor solução: 8, tempo esgotado
+melhor solução: 17, tempo esgotado
+melhor solução: 15, tempo esgotado
+melhor solução: 11, tempo esgotado
+melhor solução: inf, solução não encontrada, tempo esgotado
+----------seed 10--------------
+3.0
+4.0
+5.0
+melhor solução: 9, tempo esgotado
+melhor solução: 10, tempo esgotado
+melhor solução: 8, tempo esgotado
+melhor solução: 17, tempo esgotado
+melhor solução: 15, tempo esgotado
+melhor solução: 11, tempo esgotado
+melhor solução: 39, tempo esgotado
